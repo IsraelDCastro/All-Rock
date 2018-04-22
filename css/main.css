@@ -1,0 +1,175 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  background-image: url(../img/backbody.png);
+  background-attachment: fixed;
+}
+.body-container{
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  box-shadow: #757575;
+}
+.social-media{
+  width: 100%;
+  background-color: #000;
+  text-align: center;
+}
+.social-media li{
+  padding: 5px 1.7em;
+  display: inline-block;
+  font-size: 20px;
+}
+.social-media li a{
+  color: #d80000;
+  text-decoration: none;
+}
+.social-media li a:hover{
+  color: #fff;
+  -webkit-transition:.3s ease-in-out;
+  -moz-transition:.3s ease-in-out;
+  -ms-transition:.3s ease-in-out;
+  -o-transition:.3s ease-in-out;
+  transition:.3s ease-in-out;
+}
+header{
+  background-color: #000;
+}
+.logo-menu{
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+.logo {
+    width: auto;
+    display: inline-block;
+}
+.logo img {
+    width: 55%;
+    margin: 0 1em;
+}
+.main-menu {
+    float: right;
+    height: 100px;
+    margin: 2em 0;
+}
+.menu{
+  width: auto;
+  display: inline-block;
+}
+.menu ul li {
+  display: inline;
+  border-left: 1px solid #fff;
+  line-height: 6;
+  padding: 2px 3em;
+  font-family: "Gloria Hallelujah", sans-serif;
+}
+.menu ul li:hover {
+    background: #7d7d7d;
+    transition: .3s ease-in-out;
+}
+.menu ul li a{
+  color: #f7f7f7;
+  text-decoration:  none;
+}
+#rock-band{
+    background-image: url(../img/rock-band.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.rock-band{
+    padding: 2em;
+    text-align: center;
+    height: 436px;
+    background-color: rgba(255,255,255,.35);
+}
+.title {
+    font-size: 2.3em;
+    padding: 2em 0 0 0;
+    font-family: "New Rocker", sans-serif;
+}
+.call-title {
+    font-size: 3em;
+    font-family: "New Rocker", sans-serif;
+}
+.name-title {
+    font-family: "New Rocker", sans-serif;
+    font-size: 6em;
+    padding-top: 20px;
+}
+#album-sell, #band-play{
+  background-color: #fff;
+  text-align: center;
+}
+.album-sell{
+  padding: 2em 0;
+}
+.album {
+    display: inline-block;
+    width: 30%;
+    margin: 14px 0;
+}
+.album-title {
+    font-family: "Gloria Hallelujah", sans-serif;
+    font-size: 2em;
+}
+.album-price {
+    font-weight: 700;
+    padding: 10px 0 0 0;
+    color: #8b0000;
+}
+.album-icon {
+    display: inline-block;
+    padding: 5px 30px;
+}
+#band-play{
+  border-top: 1px solid #ccc;
+  height: 750px;
+}
+.allbands {
+    width: 100%;
+}
+#band-play h1 {
+    padding: 1em 0;
+    font-size: 2em;
+    font-family: "New Rocker";
+}
+#gift {
+    background-image: url(../img/stage.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    text-align: center;
+    height: 300px;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.gift-back {
+    background-color: rgba(0,0,0,.3);
+    height: 300px;
+}
+.gift-content {
+    color: #fff;
+    font-size: 1.5em;
+    padding: 2em 0;
+    font-family: "Gloria Hallelujah";
+}
+.gift-form {
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px #fff;
+}
+.gift-input {
+    height: 30px;
+    width: 70%;
+    background-color: transparent;
+    color: #fff;
+    font-family: "New Rocker", sans-serif;
+    font-size: 16px;
+    margin: 20px 0;
+}
