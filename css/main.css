@@ -63,9 +63,7 @@ header{
 }
 .menu ul li {
   display: inline;
-  border-left: 1px solid #fff;
   line-height: 6;
-  padding: 2px 3em;
   font-family: "Gloria Hallelujah", sans-serif;
 }
 .menu ul li:hover {
@@ -73,6 +71,7 @@ header{
     transition: .3s ease-in-out;
 }
 .menu ul li a{
+  padding: 2px 3em;
   color: #f7f7f7;
   text-decoration:  none;
 }
@@ -130,7 +129,7 @@ header{
 }
 #band-play{
   border-top: 1px solid #ccc;
-  height: 750px;
+  height: 740px;
 }
 .allbands {
     width: 100%;
@@ -172,4 +171,29 @@ header{
     font-family: "New Rocker", sans-serif;
     font-size: 16px;
     margin: 20px 0;
+}
+.gift-button {
+    width: 30%;
+    padding: .1em 1em;
+    margin-bottom: 14px;
+    font-size: 18px;
+    font-family: "Gloria Hallelujah";
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 8px;
+}
+.gift-button:hover{
+  background-color: #fff;
+  color: #000;
+  -webkit-transition:.2s ease-in-out;
+  -moz-transition:.2s ease-in-out;
+  -ms-transition:.2s ease-in-out;
+  -o-transition:.2s ease-in-out;
+  transition:.2s ease-in-out;
+}
+.footer-copyright {
+    background-color: #fff;
+    text-align: center;
+    padding: 1em 0;
 }
